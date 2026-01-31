@@ -1,0 +1,42 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outer Connected Circle -->
+  <circle cx="256" cy="256" r="160"
+          fill="none"
+          stroke="#1F4E79"
+          stroke-width="28"
+          stroke-linecap="round"/>
+
+  <!-- Connection Nodes -->
+  <circle cx="256" cy="96" r="24"
+          fill="white"
+          stroke="#1F4E79"
+          stroke-width="14"/>
+
+  <circle cx="416" cy="256" r="24"
+          fill="white"
+          stroke="#1F4E79"
+          stroke-width="14"/>
+
+  <circle cx="256" cy="416" r="24"
+          fill="white"
+          stroke="#1F4E79"
+          stroke-width="14"/>
+
+  <circle cx="96" cy="256" r="24"
+          fill="white"
+          stroke="#1F4E79"
+          stroke-width="14"/>
+
+  <!-- Location Pin -->
+  <path d="M256 150
+           C210 150 180 180 180 220
+           C180 280 256 360 256 360
+           C256 360 332 280 332 220
+           C332 180 302 150 256 150 Z"
+        fill="#F5A623"/>
+
+  <!-- Pin Inner Circle -->
+  <circle cx="256" cy="220" r="30" fill="white"/>
+
+</svg>
